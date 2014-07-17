@@ -1,4 +1,4 @@
-require "oauth2_provider/engine"
+require "oauth2/engine"
 
 module Oauth2Provider
 end

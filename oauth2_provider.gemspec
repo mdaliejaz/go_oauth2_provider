@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "go_oauth2_provider/version"
+require "oauth2/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "go_oauth2_provider"
-  s.version     = GoOauth2Provider::VERSION
+  s.name        = "oauth2_provider"
+  s.version     = Oauth2Provider::VERSION
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors     = ["Go Team"]
   s.email       = ["go-cd-dev@gmail.com"]
