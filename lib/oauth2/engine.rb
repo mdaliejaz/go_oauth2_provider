@@ -5,5 +5,7 @@
 module Oauth2Provider
   class Engine < ::Rails::Engine
     require 'oauth2_provider'
+
+    config.autoload_paths << File.expand_path("..", __FILE__)
   end
 end
